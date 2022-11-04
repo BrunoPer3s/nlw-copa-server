@@ -1,5 +1,6 @@
 import Fastify from 'fastify'
 import cors from '@fastify/cors'
+
 import { poolRoutes } from './routes/pool'
 import { userRoutes } from './routes/user'
 import { guessRoutes } from './routes/guess'
